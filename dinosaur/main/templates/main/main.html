@@ -1,0 +1,17 @@
+<!doctype html>
+{% load static %}
+<html>
+<head>
+<title>恐龍</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+</head>
+<body>
+{% include 'main/menu.html' %}
+<h2>恐龍時代</h2>
+<p align="right">現在時間:2017-11-22 08:40 </p>
+<HR>
+<img src="/static/main/img/dinosaur.png" alt="dinosaur" > <br>
+<p>{{ like }}</p>
+</body>
+</html>
